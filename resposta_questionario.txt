@@ -1,0 +1,41 @@
+Seleção de Dados:
+-----------------------
+    As informacoes escolhidas foram sobre uma pesquisa de preferencia de animes no mundo.
+
+    Perguntou-se, individualmente e em grupos, que notas daria a um anime visto por aquelas pessoas, numero de episodios, duracao, ano de estreia entre outras questoes.
+
+    Esses dados podem ser colhidos individualmente atraves de uma pesquisa simples nos sites que disponibilizam os animes (streamings - Crunchyroll, AnimesFlix, Reddit, YouTube e outros) assim que a pessoa logada visualizasse o ultimo episodio da temporada OU lancando em um grupo de amantes daquele tipo de anime um link para uma pesquisa "direcionada" (google forms por exemplo). Mas esses links devem ser distribuidos em outros grupos tambem para q nao haja uma tendencia nos dados (porque seria em um grupo restrito aquele tipo de animes). Pode-se coletar essas tendencias, tambem, em encontros semestrais ou anuais de cosplay, por exemplo, Anime Fest!
+
+    A escolha dos dados foi puramente por gosto pessoal! Como prefiro esse assunto, poderia deixar a criatividade "correr solta".
+
+
+Análise de Dados:
+-----------------------
+    Inicialmente, faria uma pesquisa de limpeza de dados, se possivel, para eliminar nulos, brancos, invalidos, duplicados e outliers.
+
+    Em seguida, algumas avaliacoes basicas: numero de respostas, medias, medianas, maximos e minimos.
+
+    Apos, montaria alguns graficos para visualizar de forma mais geral a tendencia dos numeros para ver se faz sentido. Esses graficos seriam montados cruzando informacoes obvias umas com as outras. Por exemplo: quantidade de membros/grupo, nota media dos animes/grupo e individual (procurando discrepancias), episodios assistidos versus episodios da temporada entre outras.
+
+    Depois, montaria um script pandas para analisar correlacoes que nao sao tao obvias e que o script mostraria em graficos de forma mais rapida. Isso ajuda a dar insights mais rapidos e surpreendentes!
+
+    Em outra etapa, poderia montar um script pandas para ver tendencia futura de um certo dado, por exemplo: quais grupos aceitariam melhor aquele anime, qual o numero de episodios é mais adequado, qual epoca do ano venderia mais, qual outro anime seria concorrencia direta e impactaria nas visualizacoes, qual a arrecadacao esperada e muitas outras.
+
+    Por ultimo, validacao do modelo utilizado acima. Caso seja lancado o anime, deve-se segui-lo para validar a aderencia do modelo à realidade. Caso nao haja aderencia, deve-se ajustar o modelo com outras variaveis ou outros modelos estatisticos.
+
+
+Previsões:
+-----------------------
+    Possiveis previsoes:
+        Avaliar qual o SCORE aquele anime teria caso fosse lancado;
+        Melhor epoca do ano a lancar;
+        Nivel de concorrencia com animes que ja estao em apresentacao;
+        Tempo mais adequado de cada episodio;
+        Genero de anime que o publico mais gosta (maior chance de recuperar o investimento);
+        Estimativa de arrecadacao/temporada;
+        Encerramento ou nao da serie (importante saber quando parar!)
+
+
+Apresentação:
+-----------------------
+    Apresentacao dos dados, transformacoes e analises no PowerBI. Optei por usar esta ferramenta por ser mais facil para eu mostrar os dados. Como ja tenho familiaridade com seu uso, a visualizacao das analises desejadas fica mais rapida!

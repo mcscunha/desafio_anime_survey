@@ -14,3 +14,7 @@ relationship 86f755e6-95cd-f253-0363-dae6bafb1584
 	fromColumn: ft_anime_data.type
 	toColumn: dm_tipo.Tipo
 
+relationship 215f2965-5a2e-4a60-f437-17cd14b83e0c
+	fromColumn: dm_generos.anime_id
+	toColumn: ft_anime_data.anime_id
+
