@@ -1,0 +1,144 @@
+table ft_anime_predicoes
+	lineageTag: 7649d518-fc83-4b08-b2df-fa706b6962b6
+
+	column anime_id
+		dataType: int64
+		formatString: 0
+		lineageTag: edae02a6-5262-4e97-b8d1-423094bad475
+		summarizeBy: none
+		sourceColumn: anime_id
+
+		annotation SummarizationSetBy = User
+
+	column 'DT predictions'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 7b18e067-8c8e-4d02-a10d-56fbdd8f0213
+		summarizeBy: none
+		sourceColumn: DT predictions
+
+		annotation SummarizationSetBy = User
+
+	column 'RF predictions'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 9f951f91-0fee-4d26-9831-f503a151dbc2
+		summarizeBy: none
+		sourceColumn: RF predictions
+
+		annotation SummarizationSetBy = User
+
+	column 'GB predictions'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 54dfe51a-667d-4793-82ec-b1d7374412f7
+		summarizeBy: none
+		sourceColumn: GB predictions
+
+		annotation SummarizationSetBy = User
+
+	column 'ET predictions'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 3cc3cbef-c6af-47d2-b76b-6a05169ce1a8
+		summarizeBy: none
+		sourceColumn: ET predictions
+
+		annotation SummarizationSetBy = User
+
+	column 'Ensemble of the four '
+		dataType: double
+		formatString: 0.00
+		lineageTag: 6c6a6f50-2af5-4a59-be8c-79d657261125
+		summarizeBy: none
+		sourceColumn: "Ensemble of the four "
+
+		annotation SummarizationSetBy = User
+
+	column 'Real values'
+		dataType: double
+		formatString: 0.00
+		lineageTag: c8d3dab0-cd61-4e83-9d7f-4a7d17fa8c60
+		summarizeBy: none
+		sourceColumn: Real values
+
+		annotation SummarizationSetBy = User
+
+	column title
+		dataType: string
+		lineageTag: 34986a39-8137-4ec8-a0f5-3089b899bf61
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RF Dif #' =
+			ROUND(
+			    ABS(ft_anime_predicoes[Real values] - ft_anime_predicoes[RF predictions]),
+			    2
+			)
+		lineageTag: 9ee3a8e0-db5e-4e36-ac32-0fc274b10faf
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'GB Dif #' =
+			ROUND(
+			    ABS(ft_anime_predicoes[Real values] - ft_anime_predicoes[GB predictions]),
+			    2
+			)
+		lineageTag: 4f6c7faa-0609-49b5-ae1c-a529386f97d3
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'ET Dif #' =
+			ROUND(
+			    ABS(ft_anime_predicoes[Real values] - ft_anime_predicoes[ET predictions]),
+			    2
+			)
+		lineageTag: 82967488-61eb-47a1-82ec-fb383662d910
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'DT Dif #' =
+			ROUND(
+			    ABS(ft_anime_predicoes[Real values] - ft_anime_predicoes[DT predictions]),
+			    2
+			)
+		lineageTag: 632384cb-7205-427d-abd3-d71870898690
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition ft_anime_predicoes = m
+		mode: import
+		queryGroup: fato
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\mcscunha\Desktop\anime_test\db\anime_predicoes.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado com Localidade" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos", {{"DT predictions", type number}, {"RF predictions", type number}, {"GB predictions", type number}, {"ET predictions", type number}, {"Ensemble of the four ", type number}, {"Real values", type number}}, "en-US"),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado com Localidade",{{"", "anime_id"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"anime_id", Int64.Type}}),
+				    #"Consultas Mescladas" = Table.NestedJoin(#"Tipo Alterado", {"anime_id"}, ft_anime_data, {"anime_id"}, "anime_data", JoinKind.LeftOuter),
+				    #"anime_data Expandido" = Table.ExpandTableColumn(#"Consultas Mescladas", "anime_data", {"title"}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"anime_data Expandido", each [title] <> null and [title] <> ""),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Linhas Filtradas",{{"DT predictions", type number}, {"RF predictions", type number}, {"GB predictions", type number}, {"ET predictions", type number}, {"Ensemble of the four ", type number}, {"Real values", type number}}),
+				    Arredondado = Table.TransformColumns(#"Tipo Alterado1",{{"DT predictions", each Number.Round(_, 2), type number}, {"RF predictions", each Number.Round(_, 2), type number}, {"GB predictions", each Number.Round(_, 2), type number}, {"ET predictions", each Number.Round(_, 2), type number}, {"Ensemble of the four ", each Number.Round(_, 2), type number}, {"Real values", each Number.Round(_, 2), type number}})
+				in
+				    Arredondado
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

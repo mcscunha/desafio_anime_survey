@@ -1,0 +1,26 @@
+table pm_diferenca_aceitavel
+	lineageTag: 9c33065d-fae1-4f23-94c8-6ad95a71583d
+
+	measure 'Valor DiferencaAceitavel' = SELECTEDVALUE('pm_diferenca_aceitavel'[Diferenca Aceitavel], CURRENCY(0.3))
+		formatString: 0.00
+		lineageTag: 851a61d8-4725-4869-a9d0-ac069d983a54
+
+	column 'Diferenca Aceitavel'
+		formatString: 0.00
+		lineageTag: 0f3d75a9-7259-410a-b038-ab3963d3a1d1
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+	partition pm_diferenca_aceitavel = calculated
+		mode: import
+		source = GENERATESERIES(CURRENCY(0.0), CURRENCY(1.0), CURRENCY(0.1))
+
+	annotation PBI_Id = 9b81382b93144878b8834167e90b2c62
+

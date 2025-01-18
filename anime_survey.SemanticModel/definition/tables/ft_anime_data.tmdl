@@ -1,0 +1,225 @@
+table ft_anime_data
+	lineageTag: d22226dc-f0d7-4c7e-aa30-9e8e872d489f
+
+	column anime_id
+		dataType: int64
+		formatString: 0
+		lineageTag: b3f44003-c7c8-4343-9f11-c6ca9d06be73
+		summarizeBy: sum
+		sourceColumn: anime_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: bc0bccbf-3ca1-4669-ad29-e7bdf82f74cc
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column title_english
+		dataType: string
+		lineageTag: b2750d79-c37a-417b-9e8b-7eeafab4feb8
+		summarizeBy: none
+		sourceColumn: title_english
+
+		annotation SummarizationSetBy = Automatic
+
+	column title_japanese
+		dataType: string
+		lineageTag: c4fe5d49-4190-437a-b2da-bc4c910499e8
+		summarizeBy: none
+		sourceColumn: title_japanese
+
+		annotation SummarizationSetBy = Automatic
+
+	column title_synonyms
+		dataType: string
+		lineageTag: c46dad22-d437-458e-994d-a7a10216d334
+		summarizeBy: none
+		sourceColumn: title_synonyms
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: 9ac41c39-0891-41ef-8de5-3be381fc0a83
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column source
+		dataType: string
+		lineageTag: 9bb86660-f680-4dcf-8230-2ad6e59b1564
+		summarizeBy: none
+		sourceColumn: source
+
+		annotation SummarizationSetBy = Automatic
+
+	column episodes
+		dataType: int64
+		formatString: 0
+		lineageTag: a8e71de5-4180-43cb-91ac-84d678464708
+		summarizeBy: sum
+		sourceColumn: episodes
+
+		annotation SummarizationSetBy = Automatic
+
+	column status
+		dataType: string
+		lineageTag: 465ee922-7696-4b74-9adb-a7b313c85498
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column airing
+		dataType: string
+		lineageTag: 859dab98-a4e1-46cb-ae2f-959f5844446b
+		summarizeBy: none
+		sourceColumn: airing
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration
+		dataType: string
+		lineageTag: b5f81b21-ed34-4a8f-9a95-b56a3260bf25
+		summarizeBy: none
+		sourceColumn: duration
+
+		annotation SummarizationSetBy = Automatic
+
+	column rating
+		dataType: string
+		lineageTag: 65e8d7cb-47a9-4689-bd90-04c3323b6268
+		summarizeBy: none
+		sourceColumn: rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column score
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 56ebc42b-1edc-4e6d-b850-244c3fcfea94
+		summarizeBy: sum
+		sourceColumn: score
+
+		annotation SummarizationSetBy = Automatic
+
+	column scored_by
+		dataType: double
+		formatString: 0.0000
+		lineageTag: ba551638-6a18-4c28-83da-77dc991e00ee
+		summarizeBy: sum
+		sourceColumn: scored_by
+
+		annotation SummarizationSetBy = Automatic
+
+	column rank
+		dataType: int64
+		formatString: #,0
+		lineageTag: 29d9ea81-d6d0-49e8-a269-456ff5307b8b
+		summarizeBy: sum
+		sourceColumn: rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column popularity
+		dataType: int64
+		formatString: 0
+		lineageTag: 47289341-9058-44a3-8e18-f8c366167694
+		summarizeBy: sum
+		sourceColumn: popularity
+
+		annotation SummarizationSetBy = Automatic
+
+	column members
+		dataType: int64
+		formatString: 0
+		lineageTag: c381d35e-2e6d-4d2e-aa94-bfba9d9f283b
+		summarizeBy: sum
+		sourceColumn: members
+
+		annotation SummarizationSetBy = Automatic
+
+	column favorites
+		dataType: int64
+		formatString: 0
+		lineageTag: 80bcde6d-9ddb-4a87-999a-6e6d0021deb6
+		summarizeBy: sum
+		sourceColumn: favorites
+
+		annotation SummarizationSetBy = Automatic
+
+	column premiered
+		dataType: string
+		lineageTag: 32daecf8-91c8-4af8-ae38-77bff9d9f97e
+		summarizeBy: none
+		sourceColumn: premiered
+
+		annotation SummarizationSetBy = Automatic
+
+	column producer
+		dataType: string
+		lineageTag: acf768bc-2fca-494c-9754-44225476be8a
+		summarizeBy: none
+		sourceColumn: producer
+
+		annotation SummarizationSetBy = Automatic
+
+	column licensor
+		dataType: string
+		lineageTag: afd90c65-9630-4932-900c-5decc46e79c0
+		summarizeBy: none
+		sourceColumn: licensor
+
+		annotation SummarizationSetBy = Automatic
+
+	column studio
+		dataType: string
+		lineageTag: 4cb54c8e-919f-4b9e-b1cc-d0ae73bf3246
+		summarizeBy: none
+		sourceColumn: studio
+
+		annotation SummarizationSetBy = Automatic
+
+	column genre
+		dataType: string
+		lineageTag: b63c9ee1-575a-4e4a-bb6d-357f8d4115ef
+		summarizeBy: none
+		sourceColumn: genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano_premiacao
+		dataType: int64
+		formatString: 0
+		lineageTag: b9698e03-73c2-408d-b09f-fae21e036425
+		summarizeBy: sum
+		sourceColumn: ano_premiacao
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ft_anime_data = m
+		mode: import
+		queryGroup: fato
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\mcscunha\Desktop\anime_test\db\anime_filtered.csv"),[Delimiter=",", Columns=31, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Cabeçalhos Promovidos",{"opening_theme", "ending_theme", "image_url", "aired_string", "aired", "related", "broadcast", "background"}),
+				    #"Tipo Alterado com Localidade" = Table.TransformColumnTypes(#"Colunas Removidas", {{"score", Int64.Type}}, "en-US"),
+				    #"Tipo Alterado com Localidade1" = Table.TransformColumnTypes(#"Tipo Alterado com Localidade", {{"rank", Int64.Type}}, "en-US"),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Tipo Alterado com Localidade1",{{"episodes", Int64.Type}, {"scored_by", type number}, {"popularity", Int64.Type}, {"members", Int64.Type}, {"favorites", Int64.Type}, {"score", type number}}),
+				    #"Coluna dividida" = Table.TransformColumns(#"Tipo Alterado", {{"scored_by", each _ / 1000, type number}}),
+				    #"Texto Inserido Após o Delimitador" = Table.AddColumn(#"Coluna dividida", "ano_premiacao", each Text.AfterDelimiter([premiered], " "), type text),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Texto Inserido Após o Delimitador",{{"ano_premiacao", Int64.Type}, {"anime_id", Int64.Type}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,8 @@
+EVALUATE
+ WINDOW(
+            0, ABS,
+            10, ABS,
+            // ALL(generos[Valor]),
+            ALL(generos[title]),
+            ORDERBY([Qtde Generos], DESC)
+        )

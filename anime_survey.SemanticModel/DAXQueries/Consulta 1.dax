@@ -1,0 +1,7 @@
+EVALUATE
+   TOPN(
+    7,
+    ALL(generos[Valor]),	// AGRUPADOR - dentro do agrupamento, sera aplicado o calculo abaixo
+    [Qtde Generos],			// Calculo para ver quais vem primeiro
+    DESC
+)

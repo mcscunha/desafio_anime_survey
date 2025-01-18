@@ -1,0 +1,6824 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "ft_anime_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ft anime data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ft_anime_data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "anime data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ft anime information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "ft anime fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "ft anime info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "ft anime statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "anime information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ft anime document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "ft anime figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.anime_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "anime_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anime id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "anime_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "anime": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "anime identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.title_english": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "title_english"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title english": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title_english": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "english": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "designation english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "name english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "award english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "call english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "heading english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label english": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.title_japanese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "title_japanese"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title japanese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title_japanese": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "japanese": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "designation japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "name japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "award japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "call japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "heading japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label japanese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.title_synonym": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "title_synonyms"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title synonym": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title_synonyms": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "synonym": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "designation synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "name synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "award synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "call synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "heading synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "label synonym": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "title substitute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "title replacement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "substitute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "replacement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.source": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "source"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "source": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "font": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "birthplace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "foundation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cause": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cradle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "informant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "spokesperson": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.episode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "episodes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "episode": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "affair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "incident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chapter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "event": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "experience": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "incidence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "outbreak": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "bout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.airing": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "airing"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "airing": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "exposure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disclosure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "divulgence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ventilation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aeration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "drying": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "freshening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "duration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sailor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "seaman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "hand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tally": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "result": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.scored_by": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "scored_by"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scored by": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scored_by": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flourishing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sheer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "absolute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.popularity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "popularity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "popularity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "admiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "acceptance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reputation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "attractiveness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "recognition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fame": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "esteem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.member": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "members"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "member": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "follower": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "supporter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "colleague": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "associate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "affiliate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fellow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "adherent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "participant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "partner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "representative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.favorite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "favorites"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "favorite": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "beloved": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chosen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "preference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "darling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "choice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "pick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.premiered": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "premiered"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "premiered": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.producer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "producer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "producer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "creator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manufacturer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "maker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fabricator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.licensor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "licensor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "licensor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.studio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "studio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "studio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "workspace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "workroom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "workplace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "atelier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "workshop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pottery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "conservatory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "genre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_data.ano_premiacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_data",
+			          "ConceptualProperty": "ano_premiacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano premiacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_premiacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "o_atualizacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "o_atualizacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "o atualizacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "o_atualizacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "o_atualizacao.atualizacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "o_atualizacao",
+			          "ConceptualProperty": "Atualizacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atualizacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "v_medidas_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.ultima_atualização": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Ultima Atualização"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima atualização": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.qtde_animes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Qtde Animes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde animes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.distribuicao_generos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Distribuicao Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distribuicao generos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.top_10_generos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Top 10 Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 10 generos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper 10 genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.qtde_generos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Qtde Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde generos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.top_10_generos_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Top 10 Generos 2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 10 generos 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 10 genero 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.media_episodios": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Media Episodios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media episodios": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.tamanho_total_grupos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Tamanho Total Grupos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tamanho total grupos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tamanho aggregate grupo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tamanho overall grupo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.media_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Media Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "media total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "media tally": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "media grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "media result": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.qtde_premiacoes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "Qtde Premiacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde premiacoes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.generos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "% Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% generos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.acum_generos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "% Acum Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% acum generos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage acum genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct acum genero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.qtde_animes1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "% Qtde Animes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% qtde animes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage qtde anime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct qtde anime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dm_genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dm genero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dm_generos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dm_genero.anime_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_generos",
+			          "ConceptualProperty": "anime_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anime id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "anime_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "anime": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "anime identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dm_genero.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_generos",
+			          "ConceptualProperty": "title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dm_genero.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_generos",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dm_tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dm tipo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dm_tipo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dm_tipo.tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_tipo",
+			          "ConceptualProperty": "Tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dm_fonte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_fonte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dm fonte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dm_fonte": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dm_fonte.fonte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_fonte",
+			          "ConceptualProperty": "Fonte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fonte": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dm_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dm status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dm_status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dm category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dm importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dm prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dm prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dm condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dm class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dm grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dm level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dm position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dm rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dm_status.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_status",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dm_classificacao_etaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_classificacao_etaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dm classificacao etaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dm_classificacao_etaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dm_classificacao_etaria.classificacao_etaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dm_classificacao_etaria",
+			          "ConceptualProperty": "ClassificacaoEtaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classificacao etaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ClassificacaoEtaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ft anime predicoe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ft_anime_predicoes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.anime_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "anime_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anime id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "anime_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "anime": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "anime identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "anime credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "ft_anime_predicoe.DT_prediction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "DT predictions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DT prediction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prediction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt likelihood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt extrapolation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt prognostication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dt projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.RF_prediction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "RF predictions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RF prediction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prediction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rf calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf likelihood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf extrapolation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf prognostication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rf projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.GB_prediction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "GB predictions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GB prediction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prediction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gb calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb likelihood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb extrapolation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb prognostication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gb projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.ET_prediction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "ET predictions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ET prediction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prediction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "et calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et likelihood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et extrapolation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et prognostication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "et projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prophecy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expectation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.ensemble_of_the_four": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "Ensemble of the four "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ensemble of the four": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "corps of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "assemblage of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "band of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "company of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "group of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "outfit of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "troupe of the four": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.real_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "Real values"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "real value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "real assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "real worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "real price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "real cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "real charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "real rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Título": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.RF_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "RF Dif #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RF dif #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rf dif no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rf dif num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rf dif number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.GB_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "GB Dif #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GB dif #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gb dif no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "gb dif num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "gb dif number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.ET_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "ET Dif #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ET dif #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "et dif no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "et dif num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "et dif number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.DT_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "DT Dif"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DT dif": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DT ❓": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe.DT_dif_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ft_anime_predicoes",
+			          "ConceptualProperty": "DT Dif #"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DT dif #": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dt dif no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "dt dif num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "dt dif number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "pm_diferenca_aceitavel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pm_diferenca_aceitavel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pm diferenca aceitavel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pm_diferenca_aceitavel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pm_diferenca_aceitavel.diferenca_aceitavel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pm_diferenca_aceitavel",
+			          "ConceptualProperty": "Diferenca Aceitavel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "diferenca aceitavel": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pm_diferenca_aceitavel.valor_DiferencaAceitavel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pm_diferenca_aceitavel",
+			          "ConceptualProperty": "Valor DiferencaAceitavel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor DiferencaAceitavel": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.RF_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "RF Dif"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RF dif": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RF ❓": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.GB_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "GB Dif"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GB dif": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GB ❓": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_medidas_medida.ET_dif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_medidas",
+			          "ConceptualProperty": "ET Dif"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ET dif": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ET ❓": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "ft_anime_data_has_dm_status": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "dm_status": {
+			          "Target": {
+			            "Entity": "dm_status"
+			          },
+			          "Nouns": [
+			            {
+			              "status": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "dm_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_dm_statuses"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_status"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_statuses_have_ft_anime_data"
+			        }
+			      ]
+			    },
+			    "v_medidas_medida_has_ET_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "v_medidas_medida": {
+			          "Target": {
+			            "Entity": "v_medidas_medida"
+			          }
+			        },
+			        "v_medidas_medida.ET_dif": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.ET_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "v_medidas_medida"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.ET_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_ET_dif"
+			        }
+			      ]
+			    },
+			    "v_medidas_medida_has_GB_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "v_medidas_medida": {
+			          "Target": {
+			            "Entity": "v_medidas_medida"
+			          }
+			        },
+			        "v_medidas_medida.GB_dif": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.GB_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "v_medidas_medida"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.GB_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_GB_dif"
+			        }
+			      ]
+			    },
+			    "v_medidas_medida_has_RF_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "v_medidas_medida": {
+			          "Target": {
+			            "Entity": "v_medidas_medida"
+			          }
+			        },
+			        "v_medidas_medida.RF_dif": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.RF_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "v_medidas_medida"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.RF_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_RF_dif"
+			        }
+			      ]
+			    },
+			    "pm_diferenca_aceitavel_has_valor_DiferencaAceitavel": {
+			      "Binding": {
+			        "ConceptualEntity": "pm_diferenca_aceitavel"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pm_diferenca_aceitavel": {
+			          "Target": {
+			            "Entity": "pm_diferenca_aceitavel"
+			          }
+			        },
+			        "pm_diferenca_aceitavel.valor_DiferencaAceitavel": {
+			          "Target": {
+			            "Entity": "pm_diferenca_aceitavel.valor_DiferencaAceitavel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pm_diferenca_aceitavel"
+			            },
+			            "Object": {
+			              "Role": "pm_diferenca_aceitavel.valor_DiferencaAceitavel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pm_diferenca_aceitavels_have_valor_DiferencaAceitavel"
+			        }
+			      ]
+			    },
+			    "pm_diferenca_aceitavel_has_diferenca_aceitavel": {
+			      "Binding": {
+			        "ConceptualEntity": "pm_diferenca_aceitavel"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pm_diferenca_aceitavel": {
+			          "Target": {
+			            "Entity": "pm_diferenca_aceitavel"
+			          }
+			        },
+			        "pm_diferenca_aceitavel.diferenca_aceitavel": {
+			          "Target": {
+			            "Entity": "pm_diferenca_aceitavel.diferenca_aceitavel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pm_diferenca_aceitavel"
+			            },
+			            "Object": {
+			              "Role": "pm_diferenca_aceitavel.diferenca_aceitavel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pm_diferenca_aceitavels_have_diferenca_aceitavels"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_DT_dif_": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.DT_dif_": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.DT_dif_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.DT_dif_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_DT_dif_"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_teste_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.teste_dif": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.teste_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.teste_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_teste_difs"
+			        }
+			      ]
+			    },
+			    "v_medidas_medida_has_DT_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "v_medidas_medida": {
+			          "Target": {
+			            "Entity": "v_medidas_medida"
+			          }
+			        },
+			        "v_medidas_medida.DT_dif": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.DT_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "v_medidas_medida"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.DT_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_DT_dif"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_ET_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.ET_dif": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.ET_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.ET_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_ET_dif_"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_GB_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.GB_dif": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.GB_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.GB_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_GB_dif_"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_RF_dif": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.RF_dif": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.RF_dif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.RF_dif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_RF_dif_"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.title": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_titles"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_real_value": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.real_value": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.real_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.real_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_real_values"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_ensemble_of_the_four": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.ensemble_of_the_four": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.ensemble_of_the_four"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.ensemble_of_the_four"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_ensemble_of_the_four"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_ET_prediction": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.ET_prediction": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.ET_prediction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.ET_prediction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_ET_predictions"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_GB_prediction": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.GB_prediction": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.GB_prediction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.GB_prediction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_GB_predictions"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_RF_prediction": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.RF_prediction": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.RF_prediction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.RF_prediction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_RF_predictions"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_DT_prediction": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.DT_prediction": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.DT_prediction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.DT_prediction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_DT_predictions"
+			        }
+			      ]
+			    },
+			    "ft_anime_predicoe_has_anime_id": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_predicoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_predicoe": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe"
+			          }
+			        },
+			        "ft_anime_predicoe.anime_id": {
+			          "Target": {
+			            "Entity": "ft_anime_predicoe.anime_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_predicoe.anime_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_predicoes_have_anime_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "ft_anime_predicoe"
+			            },
+			            "Name": {
+			              "Role": "ft_anime_predicoe.anime_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anime_ids_are_names_IDs_of_ft_anime_predicoes"
+			        }
+			      ]
+			    },
+			    "dm_classificacao_etaria_has_classificacao_etaria": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_classificacao_etaria"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_classificacao_etaria": {
+			          "Target": {
+			            "Entity": "dm_classificacao_etaria"
+			          }
+			        },
+			        "dm_classificacao_etaria.classificacao_etaria": {
+			          "Target": {
+			            "Entity": "dm_classificacao_etaria.classificacao_etaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_classificacao_etaria"
+			            },
+			            "Object": {
+			              "Role": "dm_classificacao_etaria.classificacao_etaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_classificacao_etarias_have_classificacao_etarias"
+			        }
+			      ]
+			    },
+			    "dm_status_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_status"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_status": {
+			          "Target": {
+			            "Entity": "dm_status"
+			          }
+			        },
+			        "dm_status.status": {
+			          "Target": {
+			            "Entity": "dm_status.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_status"
+			            },
+			            "Object": {
+			              "Role": "dm_status.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_statuses_have_statuses"
+			        }
+			      ]
+			    },
+			    "dm_fonte_has_fonte": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_fonte"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_fonte": {
+			          "Target": {
+			            "Entity": "dm_fonte"
+			          }
+			        },
+			        "dm_fonte.fonte": {
+			          "Target": {
+			            "Entity": "dm_fonte.fonte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_fonte"
+			            },
+			            "Object": {
+			              "Role": "dm_fonte.fonte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_fontes_have_fontes"
+			        }
+			      ]
+			    },
+			    "dm_tipo_has_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_tipo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_tipo": {
+			          "Target": {
+			            "Entity": "dm_tipo"
+			          }
+			        },
+			        "dm_tipo.tipo": {
+			          "Target": {
+			            "Entity": "dm_tipo.tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_tipo"
+			            },
+			            "Object": {
+			              "Role": "dm_tipo.tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_tipos_have_tipos"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "dm_genero.valor": {
+			          "Target": {
+			            "Entity": "dm_genero.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "dm_genero.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_valor"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "dm_genero.title": {
+			          "Target": {
+			            "Entity": "dm_genero.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "dm_genero.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_titles"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_anime_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "dm_genero.anime_id": {
+			          "Target": {
+			            "Entity": "dm_genero.anime_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "dm_genero.anime_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_anime_ids"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_qtde_animes1": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.qtde_animes1": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.qtde_animes1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.qtde_animes1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have__qtde_animes"
+			        }
+			      ]
+			    },
+			    "v_medidas_medida_has_acum_generos": {
+			      "Binding": {
+			        "ConceptualEntity": "_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "v_medidas_medida": {
+			          "Target": {
+			            "Entity": "v_medidas_medida"
+			          }
+			        },
+			        "v_medidas_medida.acum_generos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.acum_generos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "v_medidas_medida"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.acum_generos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have__acum_generos"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_v_medidas_medida_generos": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "v_medidas_medida.generos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.generos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.generos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have__generos"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_qtde_premiacoes": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.qtde_premiacoes": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.qtde_premiacoes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.qtde_premiacoes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_qtde_premiacoes"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_media_score": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.media_score": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.media_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.media_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_media_score"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_tamanho_total_grupos": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.tamanho_total_grupos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.tamanho_total_grupos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.tamanho_total_grupos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_tamanho_total_grupos"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_media_episodios": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.media_episodios": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.media_episodios"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.media_episodios"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_media_episodios"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_v_medidas_medida_top_10_generos_2": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "v_medidas_medida.top_10_generos_2": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.top_10_generos_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.top_10_generos_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_top_10_generos_2"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_v_medidas_medida_qtde_generos": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "v_medidas_medida.qtde_generos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.qtde_generos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.qtde_generos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_qtde_generos"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_v_medidas_medida_top_10_generos": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "v_medidas_medida.top_10_generos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.top_10_generos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.top_10_generos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_top_10_generos"
+			        }
+			      ]
+			    },
+			    "dm_genero_has_v_medidas_medida_distribuicao_generos": {
+			      "Binding": {
+			        "ConceptualEntity": "dm_generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dm_genero": {
+			          "Target": {
+			            "Entity": "dm_genero"
+			          }
+			        },
+			        "v_medidas_medida.distribuicao_generos": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.distribuicao_generos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_genero"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.distribuicao_generos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_generos_have_distribuicao_generos"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_v_medidas_medida_qtde_animes": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "v_medidas_medida.qtde_animes": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.qtde_animes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.qtde_animes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_qtde_animes"
+			        }
+			      ]
+			    },
+			    "o_atualizacao_has_v_medidas_medida_ultima_atualização": {
+			      "Binding": {
+			        "ConceptualEntity": "o_atualizacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "o_atualizacao": {
+			          "Target": {
+			            "Entity": "o_atualizacao"
+			          }
+			        },
+			        "v_medidas_medida.ultima_atualização": {
+			          "Target": {
+			            "Entity": "v_medidas_medida.ultima_atualização"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "o_atualizacao"
+			            },
+			            "Object": {
+			              "Role": "v_medidas_medida.ultima_atualização"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "o_atualizacaos_have_ultima_atualização"
+			        }
+			      ]
+			    },
+			    "o_atualizacao_has_atualizacao": {
+			      "Binding": {
+			        "ConceptualEntity": "o_atualizacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "o_atualizacao": {
+			          "Target": {
+			            "Entity": "o_atualizacao"
+			          }
+			        },
+			        "o_atualizacao.atualizacao": {
+			          "Target": {
+			            "Entity": "o_atualizacao.atualizacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "o_atualizacao"
+			            },
+			            "Object": {
+			              "Role": "o_atualizacao.atualizacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "o_atualizacaos_have_atualizacaos"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_ano_premiacao": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.ano_premiacao": {
+			          "Target": {
+			            "Entity": "ft_anime_data.ano_premiacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.ano_premiacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_ano_premiacaos"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.genre": {
+			          "Target": {
+			            "Entity": "ft_anime_data.genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_genres"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_studio": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.studio": {
+			          "Target": {
+			            "Entity": "ft_anime_data.studio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.studio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_studios"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_licensor": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.licensor": {
+			          "Target": {
+			            "Entity": "ft_anime_data.licensor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.licensor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_licensors"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_producer": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.producer": {
+			          "Target": {
+			            "Entity": "ft_anime_data.producer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.producer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_producers"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "ft_anime_data.producer"
+			            },
+			            "Verbs": [
+			              {
+			                "produce": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "producers_produce_ft_anime_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data.producer"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "producers_have_ft_anime_data"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_premiered": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.premiered": {
+			          "Target": {
+			            "Entity": "ft_anime_data.premiered"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.premiered"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_premiered"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_favorite": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.favorite": {
+			          "Target": {
+			            "Entity": "ft_anime_data.favorite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.favorite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_favorites"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_member": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.member": {
+			          "Target": {
+			            "Entity": "ft_anime_data.member"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.member"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_members"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_popularity": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.popularity": {
+			          "Target": {
+			            "Entity": "ft_anime_data.popularity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.popularity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_popularities"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.rank": {
+			          "Target": {
+			            "Entity": "ft_anime_data.rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_ranks"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_scored_by": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.scored_by": {
+			          "Target": {
+			            "Entity": "ft_anime_data.scored_by"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.scored_by"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_scored_by"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_score": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.score": {
+			          "Target": {
+			            "Entity": "ft_anime_data.score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_scores"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.duration": {
+			          "Target": {
+			            "Entity": "ft_anime_data.duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_durations"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_airing": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.airing": {
+			          "Target": {
+			            "Entity": "ft_anime_data.airing"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.airing"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_airing"
+			        },
+			        {
+			          "DynamicAdjective": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Adjective": {
+			              "Role": "ft_anime_data.airing"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "airing_describe_ft_anime_data"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_episode": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.episode": {
+			          "Target": {
+			            "Entity": "ft_anime_data.episode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.episode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_episodes"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_title_synonym": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.title_synonym": {
+			          "Target": {
+			            "Entity": "ft_anime_data.title_synonym"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.title_synonym"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_title_synonyms"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_title_japanese": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.title_japanese": {
+			          "Target": {
+			            "Entity": "ft_anime_data.title_japanese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.title_japanese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_title_japanese"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_title_english": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.title_english": {
+			          "Target": {
+			            "Entity": "ft_anime_data.title_english"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.title_english"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_title_englishes"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.title": {
+			          "Target": {
+			            "Entity": "ft_anime_data.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_titles"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_anime_id": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "ft_anime_data.anime_id": {
+			          "Target": {
+			            "Entity": "ft_anime_data.anime_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data.anime_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_anime_ids"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_dm_classificacao_etaria": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "dm_classificacao_etaria": {
+			          "Target": {
+			            "Entity": "dm_classificacao_etaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "dm_classificacao_etaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_dm_classificacao_etarias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_classificacao_etaria"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_classificacao_etarias_have_ft_anime_data"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_dm_fonte": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "dm_fonte": {
+			          "Target": {
+			            "Entity": "dm_fonte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "dm_fonte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_dm_fontes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_fonte"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_fontes_have_ft_anime_data"
+			        }
+			      ]
+			    },
+			    "ft_anime_data_has_dm_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "ft_anime_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ft_anime_data": {
+			          "Target": {
+			            "Entity": "ft_anime_data"
+			          }
+			        },
+			        "dm_tipo": {
+			          "Target": {
+			            "Entity": "dm_tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ft_anime_data"
+			            },
+			            "Object": {
+			              "Role": "dm_tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ft_anime_data_have_dm_tipos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dm_tipo"
+			            },
+			            "Object": {
+			              "Role": "ft_anime_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dm_tipos_have_ft_anime_data"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

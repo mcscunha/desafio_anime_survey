@@ -1,0 +1,29 @@
+table o_atualizacao
+	lineageTag: e2e0b680-e4ad-41d1-907e-e35d9b3ad734
+
+	column Atualizacao
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 70fdf7cb-e49f-4063-ab59-6ccc0038854f
+		summarizeBy: none
+		sourceColumn: Atualizacao
+
+		annotation SummarizationSetBy = Automatic
+
+	partition o_atualizacao = m
+		mode: import
+		source =
+				let
+				    Fonte = {DateTimeZone.FixedLocalNow()},
+				    #"Convertido para Tabela" = Table.FromList(Fonte, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Convertido para Tabela",{{"Column1", "Atualizacao"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"Atualizacao", type datetimezone}})
+				in
+				    #"Tipo Alterado"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

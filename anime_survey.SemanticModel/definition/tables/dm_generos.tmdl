@@ -1,0 +1,46 @@
+table dm_generos
+	lineageTag: fa79c769-40cb-4d33-868f-f784537f5b17
+
+	column anime_id
+		dataType: string
+		lineageTag: f3ddef49-2018-4cce-8bd4-bafdaa34e429
+		summarizeBy: none
+		sourceColumn: anime_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 08aeeef2-d78c-4c07-b9a4-f428c59b301f
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column Valor
+		dataType: string
+		lineageTag: 5264440a-fa6c-42a8-8d7d-f697b0a5968c
+		summarizeBy: none
+		sourceColumn: Valor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dm_generos = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\mcscunha\Desktop\anime_test\db\anime_filtered.csv"),[Delimiter=",", Columns=31, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Cabeçalhos Promovidos",{"opening_theme", "ending_theme", "image_url", "aired_string", "aired", "related", "broadcast", "background", "title_english", "title_japanese", "title_synonyms", "type", "source", "episodes", "status", "airing", "duration", "rating", "score", "scored_by", "rank", "popularity", "members", "favorites", "premiered", "producer", "licensor", "studio"}),
+				    #"Dividir Coluna por Delimitador" = Table.SplitColumn(#"Colunas Removidas", "genre", Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv), {"genre.1", "genre.2", "genre.3", "genre.4", "genre.5", "genre.6", "genre.7", "genre.8", "genre.9", "genre.10"}),
+				    #"Colunas Não Dinâmicas" = Table.UnpivotOtherColumns(#"Dividir Coluna por Delimitador", {"anime_id", "title"}, "Atributo", "Valor"),
+				    #"Colunas Removidas1" = Table.RemoveColumns(#"Colunas Não Dinâmicas",{"Atributo"}),
+				    #"Texto Aparado" = Table.TransformColumns(#"Colunas Removidas1",{{"Valor", Text.Trim, type text}})
+				in
+				    #"Texto Aparado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

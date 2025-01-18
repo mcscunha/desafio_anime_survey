@@ -1,0 +1,33 @@
+table dm_tipo
+	lineageTag: 07058645-0edb-44c4-b364-30968e0f3a8b
+
+	column Tipo
+		dataType: string
+		lineageTag: 6a4a9d18-06fa-4f74-83e2-2907ca4066f6
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dm_tipo = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    type1 = Table.FromList(
+				        ft_anime_data[type],
+				        Splitter.SplitByNothing(),
+				        null,
+				        null,
+				        ExtraValues.Error
+				    ),
+				    #"Duplicatas Removidas" = Table.Distinct(type1),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Duplicatas Removidas",{{"Column1", "Tipo"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"Tipo", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

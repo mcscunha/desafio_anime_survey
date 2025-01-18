@@ -1,0 +1,145 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 703.33333333333337,
+        "y": 1.1111111111111112
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1311.4603174603176,
+            "y": 114.60317460317461
+          },
+          "nodeIndex": "_medidas",
+          "nodeLineageTag": "daa9921e-778e-4e38-a216-375918fc3de3",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 843.77777777777771,
+            "y": 0
+          },
+          "nodeIndex": "dm_tipo",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 297.33333333333337,
+            "y": 0
+          },
+          "nodeIndex": "dm_fonte",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 565.33333333333326,
+            "y": 0
+          },
+          "nodeIndex": "dm_status",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "dm_classificacao_etaria",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1281.0158730158732,
+            "y": 365.888888888889
+          },
+          "nodeIndex": "ft_anime_predicoes",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 390.50793650793634,
+            "y": 361.11111111111126
+          },
+          "nodeIndex": "ft_anime_data",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1308.4444444444446,
+            "y": 0
+          },
+          "nodeIndex": "o_atualizacao",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 104
+        },
+        {
+          "location": {
+            "x": 974.66666666666652,
+            "y": 367.33333333333337
+          },
+          "nodeIndex": "dm_generos",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1595.4603174603176,
+            "y": 218.94444444444451
+          },
+          "nodeIndex": "pm_diferenca_aceitavel",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 90,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

@@ -1,0 +1,33 @@
+table dm_status
+	lineageTag: deee444c-0de4-457e-b3fe-abd1cb27152f
+
+	column Status
+		dataType: string
+		lineageTag: 5761304f-1ed2-4d2d-98a0-0607005c9966
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dm_status = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    type1 = Table.FromList(
+				        ft_anime_data[status],
+				        Splitter.SplitByNothing(),
+				        null,
+				        null,
+				        ExtraValues.Error
+				    ),
+				    #"Duplicatas Removidas" = Table.Distinct(type1),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Duplicatas Removidas",{{"Column1", "Status"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"Status", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,271 @@
+table _medidas
+	lineageTag: daa9921e-778e-4e38-a216-375918fc3de3
+
+	measure 'Ultima Atualização' = CONCATENATE("Última Atualização: ", VALUES(o_atualizacao[Atualizacao]))
+		displayFolder: Base
+		lineageTag: cb39ffac-a64f-4e2b-9be6-32566aa079af
+
+	measure 'Qtde Animes' = COUNTROWS(ft_anime_data)
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: 5fbc54b4-a6a5-4798-b58a-f3f7cfe82bdf
+
+	measure 'Distribuicao Generos' =
+			
+			VAR vGeneros = VALUES(dm_generos[Valor])
+			VAR vResult = SUMMARIZE(
+			    vGeneros,
+			    "@QtdeAnimes", COUNT(dm_generos[Valor])
+			)
+			RETURN
+			    MAXX(
+			        vResult,
+			        [@QtdeAnimes]
+			    )
+		formatString: 0
+		displayFolder: Generos
+		lineageTag: f5ab1dce-c76f-43d6-8fd3-c0d72254798d
+
+	measure 'Top 10 Generos' =
+			CALCULATE(
+			    [Qtde Generos],
+			    KEEPFILTERS(
+			        WINDOW(
+			            0, ABS,
+			            10, ABS,
+			            ALLSELECTED(dm_generos[Valor]),        // Agrupamento - Agrupar os conteudos iguais para executar o calculo abaixo
+			            ORDERBY([Qtde Generos], DESC)
+			        )
+			    )
+			)
+		formatString: 0
+		displayFolder: Generos
+		lineageTag: c0a6f0d7-1c71-4f2d-a35d-375015299150
+
+	measure 'Qtde Generos' = COUNT(dm_generos[Valor])
+		formatString: 0
+		displayFolder: Base
+		lineageTag: b0079204-63de-4840-9fa5-00e1488308bd
+
+	measure 'Top 10 Generos 2' =
+			CALCULATE(
+			    [Qtde Generos],
+			    KEEPFILTERS(
+			        TOPN(
+			            10,
+			            ALL(dm_generos[Valor]),	// AGRUPADOR - dentro do agrupamento, sera aplicado o calculo abaixo
+			            [Qtde Generos],
+			            DESC
+			        )
+			    )
+			)
+		formatString: 0
+		displayFolder: Generos
+		lineageTag: c306ee97-3e00-4370-b00e-bc3b96883bc7
+
+	measure 'Media Episodios' = AVERAGE(ft_anime_data[episodes])
+		formatString: #,0.0
+		displayFolder: Animes
+		lineageTag: b802c862-71b7-4a0d-b9df-6311cc33bd92
+
+	measure 'Tamanho Total Grupos' = SUM(ft_anime_data[members])
+		formatString: #,0
+		displayFolder: Animes
+		lineageTag: 730e213a-87e3-4a92-9f77-83c810498a51
+
+	measure 'Media Score' = AVERAGE(ft_anime_data[score]) + AVERAGE(ft_anime_data[scored_by])/100
+		displayFolder: Animes
+		lineageTag: 69d51a7e-8713-4b43-8b9c-f94094305408
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Qtde Premiacoes' =
+			CALCULATE(
+			    COUNTROWS(ft_anime_data),
+			    FILTER(
+			        ALL(ft_anime_data[ano_premiacao]),
+			        NOT ISBLANK(ft_anime_data[ano_premiacao])
+			    )
+			)
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: 3c361666-4ea2-4f3e-b322-31583afb15e3
+
+	measure '% Generos' =
+			DIVIDE(
+			    [Top 10 Generos],
+			    CALCULATE([Qtde Generos], ALL(dm_generos[Valor])),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Generos
+		lineageTag: fe32c235-70ef-48a7-87a9-9a7ac109bd84
+
+	measure '% Acum Generos' =
+			
+			var vQtdeGeneroContextoAtual = [Qtde Generos]
+			var vResult = CALCULATE(
+			    [% Generos],
+			    FILTER(
+			        WINDOW(
+			            0, ABS,
+			            10, ABS,
+			            ALLSELECTED(dm_generos[Valor]),        // Agrupamento - Agrupar os conteudos iguais para executar o calculo abaixo
+			            ORDERBY([Qtde Generos], DESC)
+			        ),
+			        [Qtde Generos] >= vQtdeGeneroContextoAtual
+			    )
+			)
+			RETURN
+			    IF(
+			        NOT ISBLANK([Top 10 Generos]),
+			        vResult
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Generos
+		lineageTag: d46d39ba-4d5e-41d9-b29c-6598386497b4
+
+	measure '% Qtde Animes' =
+			DIVIDE(
+			    [Qtde Animes],
+			    COUNTROWS(ALL(ft_anime_data[anime_id])),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Animes
+		lineageTag: c2409d88-75fc-4756-94c7-c8efd1744440
+
+	measure 'DT Dif' = ```
+			IF(
+			    ISINSCOPE(ft_anime_predicoes[title]),
+			    IF(
+			        ROUND(
+			            ABS(SELECTEDVALUE(ft_anime_predicoes[Real values]) - SELECTEDVALUE(ft_anime_predicoes[DT predictions])),
+			            2
+			        ) > [Valor DiferencaAceitavel],
+			        "💥", 
+			        "✅"
+			    )
+			)
+			```
+		displayFolder: Predicoes
+		lineageTag: 53bada4b-5b29-4612-ac15-2b82c627db41
+
+	measure 'RF Dif' = ```
+			IF(
+			    ISINSCOPE(ft_anime_predicoes[title]),
+			    IF(
+			        ABS(SELECTEDVALUE(ft_anime_predicoes[Real values]) - SELECTEDVALUE(ft_anime_predicoes[RF predictions])) > [Valor DiferencaAceitavel],
+			        "💥", 
+			        "✅"
+			    )
+			)
+			```
+		displayFolder: Predicoes
+		lineageTag: af8340d8-37a2-45a4-b083-57262db32221
+
+	measure 'GB Dif' = ```
+			IF(
+			    ISINSCOPE(ft_anime_predicoes[title]),
+			    IF(
+			        ABS(SELECTEDVALUE(ft_anime_predicoes[Real values]) - SELECTEDVALUE(ft_anime_predicoes[GB predictions])) > [Valor DiferencaAceitavel],
+			        "💥", 
+			        "✅"
+			    )
+			)
+			```
+		displayFolder: Predicoes
+		lineageTag: 1d9ac6d5-f674-4fa2-8f75-56a0f336b638
+
+	measure 'ET Dif' = ```
+			IF(
+			    ISINSCOPE(ft_anime_predicoes[title]),
+			    IF(
+			        ABS(SELECTEDVALUE(ft_anime_predicoes[Real values]) - SELECTEDVALUE(ft_anime_predicoes[ET predictions])) > [Valor DiferencaAceitavel],
+			        "💥", 
+			        "✅"
+			    )
+			)
+			```
+		displayFolder: Predicoes
+		lineageTag: a2ee72db-1bd2-48bb-93f6-1b96e57b8208
+
+	measure 'DT # Acertos' =
+			COALESCE(
+			    COUNTROWS(
+			        FILTER(
+			            ft_anime_predicoes,
+			            ft_anime_predicoes[DT Dif #] <= [Valor DiferencaAceitavel]
+			        )
+			    ),
+			    0
+			)
+		formatString: #,0
+		displayFolder: Predicoes
+		lineageTag: 3cbe2915-e830-46dc-b0a2-4839b5da90ea
+
+	measure 'ET # Acertos' =
+			COALESCE(
+			    COUNTROWS(
+			        FILTER(
+			            ft_anime_predicoes,
+			            ft_anime_predicoes[ET Dif #] <= [Valor DiferencaAceitavel]
+			        )
+			    ),
+			    0
+			)
+		formatString: #,0
+		displayFolder: Predicoes
+		lineageTag: ef9c4de2-a550-4c32-a391-94d524a312c6
+
+	measure 'GB # Acertos' =
+			COALESCE(
+			    COUNTROWS(
+			        FILTER(
+			            ft_anime_predicoes,
+			            ft_anime_predicoes[GB Dif #] <= [Valor DiferencaAceitavel]
+			        )
+			    ),
+			    0
+			)
+		formatString: #,0
+		displayFolder: Predicoes
+		lineageTag: ba85e8b0-7afe-457d-9459-d2f42d216a6a
+
+	measure 'RF # Acertos' =
+			COALESCE(
+			    COUNTROWS(
+			        FILTER(
+			            ft_anime_predicoes,
+			            ft_anime_predicoes[RF Dif #] <= [Valor DiferencaAceitavel]
+			        )
+			    ),
+			    0
+			)
+		formatString: #,0
+		displayFolder: Predicoes
+		lineageTag: 227a668f-adb2-4845-8ac1-7f630832370e
+
+	column Column
+		isHidden
+		formatString: 0
+		lineageTag: 42ccacb6-8c35-4b6c-b487-941ab7165fd0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _medidas = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 02279dc1e81f4b38b0324f52c4e5b90f
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":"{}"}
+
+	annotation 277cc1b9-af89-4597-8e15-cacc25c0886b = ```
+			Uma instrução Evaluate não pode retornar uma tabela sem colunas.
+			
+			```
+

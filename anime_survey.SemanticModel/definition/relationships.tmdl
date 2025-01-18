@@ -1,0 +1,16 @@
+relationship AutoDetected_4abdaf10-d40b-49a1-a3b6-126b91176453
+	fromColumn: ft_anime_data.status
+	toColumn: dm_status.Status
+
+relationship de03b10d-155e-6ec5-d97b-3a7c1f4eaec1
+	fromColumn: ft_anime_data.rating
+	toColumn: dm_classificacao_etaria.ClassificacaoEtaria
+
+relationship 37c09af3-b90e-e422-cfe5-d878858c830d
+	fromColumn: ft_anime_data.source
+	toColumn: dm_fonte.Fonte
+
+relationship 86f755e6-95cd-f253-0363-dae6bafb1584
+	fromColumn: ft_anime_data.type
+	toColumn: dm_tipo.Tipo
+

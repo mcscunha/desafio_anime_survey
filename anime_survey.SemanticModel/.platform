@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "anime_survey"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8fc31f06-6e1d-4141-b70e-264847171f12"
+  }
+}

@@ -1,0 +1,33 @@
+table dm_classificacao_etaria
+	lineageTag: 7775484b-c01f-428c-85d1-8e17e0a945da
+
+	column ClassificacaoEtaria
+		dataType: string
+		lineageTag: 8e2c26dd-5923-40b7-bb20-e74489447ca3
+		summarizeBy: none
+		sourceColumn: ClassificacaoEtaria
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dm_classificacao_etaria = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    type1 = Table.FromList(
+				        ft_anime_data[rating],
+				        Splitter.SplitByNothing(),
+				        null,
+				        null,
+				        ExtraValues.Error
+				    ),
+				    #"Duplicatas Removidas" = Table.Distinct(type1),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Duplicatas Removidas",{{"Column1", "ClassificacaoEtaria"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"ClassificacaoEtaria", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
